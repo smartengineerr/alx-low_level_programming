@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include <main.h>
 	/*
 	 * include main.h is an addition header
 	 *
@@ -14,6 +13,8 @@ int main (void)
 	b = 70;
 	while (a != b);
 
-	putchar(a);
+	_putchar(a); a++;
+
+	_putchar('\n');
 	return (0);
 }
