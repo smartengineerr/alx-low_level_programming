@@ -4,18 +4,21 @@
 	 * include main.h is an addition header
 	 *
 	 * starting function
+	 *return 0 as success
 	 */
 
 int main (void)
 	
 {
-	int a, b;
-	a = 65;
-	b = 70;
-	while (a != b);
+	char man = "bright";
 
-	_putchar(a); a++;
+	while (man);
+	{
 
-	_putchar('\n');
+		_putchar(man); a++;
+
+		_putchar('\n');
+	}
+
 	return (0);
 }
