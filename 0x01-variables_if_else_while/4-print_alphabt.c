@@ -10,14 +10,14 @@
 int main ()
 
 { 
-	char e;
+	char f;
 
-	for (e = 'a'; e <= 'z'; e++)
+	for (f = 'a'; f <= 'z'; f++)
 	{
-		if (e != 'e' && e != 'q')
+		if (f != 'e' && f != 'q')
 
 		{
-			putchar(e);
+			putchar(f);
 		}
 	}
 
