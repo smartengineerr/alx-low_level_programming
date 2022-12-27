@@ -1,27 +1,22 @@
 #include <stdio.h>
 
 /**
- * main entry point
+ * main - Entry point
  *
- * return 0 success
- *
+ * Return: Always 0 (success)
  */
 
-int main ()
+int main(void)
+{
+	char i;
 
-{ 
-	char f;
-
-	for (f = 'a'; f <= 'z'; f++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (f != 'e' && f != 'q')
-
+		if (i != 'e' && i != 'q')
 		{
-			putchar(f);
+			putchar(i);
 		}
 	}
-
 	putchar('\n');
 	return (0);
-
 }
