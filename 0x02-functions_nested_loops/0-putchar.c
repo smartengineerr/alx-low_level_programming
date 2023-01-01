@@ -1,23 +1,22 @@
-#include <main.h>
-	/*
-	 * include main.h is an addition header
-	 *
-	 * starting function
-	 *return 0 as success
-	 */
+#include <stdio.h>
+#include "main.h"
 
-int main (void)
-	
+/**
+ * main - prints _putchar to stdout
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
 {
-	char man = "bright";
-
-	while (man);
-	{
-
-		_putchar(man); a++;
-
-		_putchar('\n');
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
